@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHMaquina</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="shortcut icon" href="#">
+    <script type="module" defer src="resources/js/index.js"></script>
+</head>
+<body>
+    <h1>CH Maquina</h1>
+    <div id="main">
+        <div id="syntaxis">
+            <img src="resources/imgs/Monitor.png" alt="">
+            <div id="errors">
+                <h3>Los errores apareceran aquí</h3>
+            </div>
+            <div id="code">
+                <h3>El código aparecerá aquí</h3>
+            </div>
+        </div>
+        <div id="outputScreen">
+            <img src="resources/imgs/Monitor.png" alt="">
+            <div id="output">
+                <h3>Acomulador: <span id="acomulador">0</span></h3>
+                <h3>Linea: <span id="codeLine">Undefined</span></h3>
+            </div>
+        </div>
+        <div id="ramContainer">
+            <img src="resources/imgs/Monitor.png" alt="">
+            <div id="ram">
+                <h3>Ram</h3>
+                <div id="ramUpdate">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="split">
+        <div class="buttonBox">
+            <button id="runCode" class="button">Correr Código</button>
+            <input id="submit" type="file">
+        </div>
+        <div id="printer">
+            <img src="resources/imgs/Printer.png" alt="">
+            <div id="print">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
